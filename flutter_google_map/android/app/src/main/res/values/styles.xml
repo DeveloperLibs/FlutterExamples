@@ -3,6 +3,9 @@
     <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
         <!-- Show a splash screen on the activity. Automatically removed when
              Flutter draws its first frame -->
+        <item name="colorPrimary">#02BB9F</item>
+        <item name="colorPrimaryDark">#167F67</item>
+        <item name="colorAccent">#FFAD32</item>
         <item name="android:windowBackground">@drawable/launch_background</item>
     </style>
 </resources>
