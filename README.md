@@ -10,4 +10,5 @@
 
 
 3. Flutter - Google map plugin.
+
 ![ScreenShot](https://github.com/DeveloperLibs/FlutterExamples/blob/master/flutter_google_map/screen/google_map.gif)
