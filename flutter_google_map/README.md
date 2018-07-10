@@ -5,7 +5,7 @@
 Read more https://www.developerlibs.com/2018/07/flutter-with-google-map.html
 
 Checkout: https://www.youtube.com/watch?v=v5wphspn5Lg
-A new Flutter application.
+
 
 ## Getting Started
 
