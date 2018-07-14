@@ -12,12 +12,22 @@ class TaskListPage extends StatelessWidget {
         converter: (Store<AppState> store) => _ViewModel.create(store),
         builder: (BuildContext context, _ViewModel viewModel) => Scaffold(
               appBar: AppBar(
-                title: Text(viewModel.pageTitle),
+                title: Text(viewModel.pageTitle,
+
+                  textAlign: TextAlign.center,
+                  style: new TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
+
+                ),
+
               ),
               body: ListView(children: viewModel.items.map((_ItemViewModel item) => _createWidget(item)).toList()),
               floatingActionButton: FloatingActionButton(
                 onPressed: viewModel.onAddItem,
                 backgroundColor: const Color(0xFF02BB9F),
+                foregroundColor: Colors.white,
                 tooltip: viewModel.newItemToolTip,
                 child: Icon(viewModel.newItemIcon),
               ),

@@ -44,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
           indicatorSize: TabBarIndicatorSize.tab,
           labelColor: Color(0xFFFFFFFF),
           tabs: const <Tab>[
-            const Tab(text: 'Tranding'),
+            const Tab(text: 'Trending'),
             const Tab(text: 'Men'),
             const Tab(text: 'Women'),
           ],
@@ -59,7 +59,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
       body: new TabBarView(
         controller: _controller,
         children: <Widget>[
-          new TabScreen("Tranding"),
+          new TabScreen("Trending"),
           new TabScreen("Men"),
           new TabScreen("Women"),
         ],
