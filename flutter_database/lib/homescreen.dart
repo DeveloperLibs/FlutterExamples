@@ -18,13 +18,11 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> implements HomeContract {
   HomePresenter homePresenter;
-  var db;
 
   @override
   void initState() {
     super.initState();
     homePresenter = new HomePresenter(this);
-    db = new DatabaseHelper();
   }
 
   displayRecord() {
@@ -84,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> implements HomeContract {
         actions: _buildActions(),
       ),
       body: new FutureBuilder<List<User>>(
-        future: db.getUser(),
+        future: homePresenter.getUser(),
         builder: (context, snapshot) {
           if (snapshot.hasError) print(snapshot.error);
           var data = snapshot.data;
