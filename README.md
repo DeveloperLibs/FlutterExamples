@@ -17,6 +17,3 @@
 
 ![ScreenShot](https://github.com/DeveloperLibs/FlutterExamples/blob/master/flutter_google_map/screen/google_map.gif)
 
-4. Flutter - SQFlite/SQFlite database. [YouTube](https://youtu.be/D9jUX1JB1is)
-
-![ScreenShot](https://github.com/DeveloperLibs/FlutterExamples/blob/master/flutter_database/screen/Databasegif.gif)
